@@ -140,7 +140,7 @@ header .logo{width: 170px; margin: 0 auto;}
 .swedu{margin: 0 auto; width: 300px; display: block; padding-top: 70px;}
 
 
-.signup{margin: 0 auto; width: 350px;}
+.signup{margin: 0 auto; width: 450px;}
 .signup input[type="text"]{padding: 5px 10px;
     border: solid 1px #b5b5b5;
     outline: 0;
@@ -180,7 +180,7 @@ header .logo{width: 170px; margin: 0 auto;}
     transition:.6s;
 }
 
-footer{margin: 75px auto; width: 450px;}
+footer{margin: 75px auto; width: 450px; text-align: center; }
 footer a{text-decoration: none; color: #2A2F35; padding: 25px;}
 
 /* ==========================================================================
@@ -372,3 +372,6 @@ footer a{text-decoration: none; color: #2A2F35; padding: 25px;}
         page-break-after: avoid;
     }
 }
+
+
+#mc_embed_signup { text-align: center; }
