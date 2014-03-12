@@ -21,7 +21,9 @@ textarea {
 html {
     font-size: 1em;
     line-height: 1.4;
-}
+ }
+
+
 
 /*
  * Remove text-shadow in selection highlight: h5bp.com/i
@@ -201,11 +203,13 @@ footer a{text-decoration: none; color: #2A2F35; padding: 25px;}
 }
 
 @media (max-width: 780px){
+    .container{overflow: hidden;}
+
     .container h1{padding: 3px;}
 
     .container p{font-size: 1em;}
 
-    .container .half{width: 100%;}
+    .container .half{width: 92%;}
     .container p{padding: 0 30px;}
     .second p{margin-top: 525px;}
     .second .circle{margin-top: -490px;}
