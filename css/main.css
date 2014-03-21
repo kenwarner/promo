@@ -245,8 +245,8 @@ footer a{text-decoration: none; color: #2A2F35; padding: 25px;}
 
     footer a{width: 82%; display: block;}
 
-    input[type="email"]{margin-left: -85px; width: 250px;}
-    input[type="submit"]{margin: 15px auto auto -85px; width: 250px;}
+    input[type="email"]{margin-left: -85px; width: 263px;}
+    input[type="submit"]{margin: 15px auto auto -85px; width: 263px;}
 }
 
 /* ==========================================================================
