@@ -143,7 +143,7 @@ header .logo{width: 170px; margin: 0 auto;}
 
 
 .signup{margin: 0 auto; width: 450px;}
-.signup input[type="text"]{padding: 5px 10px;
+input[type="email"]{padding: 5px 10px;
     border: solid 1px #b5b5b5;
     outline: 0;
     width: 200px;
@@ -160,7 +160,7 @@ header .logo{width: 170px; margin: 0 auto;}
     display: inline;
     font-family: 'Merriweather', serif;
 }
-.signup input[type="submit"]{
+input[type="submit"]{
     text-transform: uppercase;
     background-color: #319665;
     color: #eaf7e1 !important;
@@ -231,7 +231,10 @@ footer a{text-decoration: none; color: #2A2F35; padding: 25px;}
 
     .swedu{margin-top: 575px;}
 
-    footer a{width: 100%; display: block;}
+    footer a{width: 90%; display: block;}
+    input{display: block; padding: 15px!important;}
+    input[type="email"]{width: 280px; margin-left: -45px;}
+    input[type="submit"]{width: 68%; margin: 15px auto auto -46px;}
 }
 
 /* Iphone vertical break point */
@@ -239,6 +242,8 @@ footer a{text-decoration: none; color: #2A2F35; padding: 25px;}
     .circle{margin: 0 0 0 -8px;}
 
     .swedu{margin-top: 615px;}
+
+    footer a{width: 82%; display: block;}
 }
 
 /* ==========================================================================
