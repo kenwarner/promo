@@ -244,6 +244,9 @@ footer a{text-decoration: none; color: #2A2F35; padding: 25px;}
     .swedu{margin-top: 615px;}
 
     footer a{width: 82%; display: block;}
+
+    input[type="email"]{margin-left: -65px;}
+    input[type="submit"]{margin: 15px auto auto -66px;}
 }
 
 /* ==========================================================================
