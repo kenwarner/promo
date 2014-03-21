@@ -233,7 +233,7 @@ footer a{text-decoration: none; color: #2A2F35; padding: 25px;}
 
 /* Iphone vertical break point */
 @media (max-width: 330px){
-    .container .half{width: 81%;}
+    .circle{margin: 0 0 0 -7px;}
 }
 
 /* ==========================================================================
