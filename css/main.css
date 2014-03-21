@@ -229,12 +229,16 @@ footer a{text-decoration: none; color: #2A2F35; padding: 25px;}
     header .logo{width: 85px;}
     header img{width: 85px; margin: 6px auto;}
 
+    .swedu{margin-top: 575px;}
+
     footer a{width: 100%; display: block;}
 }
 
 /* Iphone vertical break point */
 @media (max-width: 330px){
     .circle{margin: 0 0 0 -8px;}
+
+    .swedu{margin-top: 615px;}
 }
 
 /* ==========================================================================
