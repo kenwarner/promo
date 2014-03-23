@@ -14,10 +14,9 @@
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/animate.css">
         <link href='http://fonts.googleapis.com/css?family=Merriweather:400,700,700italic,300' rel='stylesheet' type='text/css'>
 
-        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
-        <script src="js/vendor/mailchimp.js"></script>
 
     </head>
     <body>
@@ -34,28 +33,28 @@
             <h1>VidCode</h1>
             <h2 class="tagline">Like art? Curious about code?</h2>
             <div class="row">
-                <div class="half img1">
+                <div class="half img1 wow fadeInLeft">
                     <div class="circle bg1"></div>
                 </div>
-                <div class="half">
+                <div class="half wow fadeInRight">
                     <p>VidCode let’s you <b>transform</b> your own videos into works of art with <b>awesome filters and effects.</b></p>
                 </div>
             </div>
 
             <div class="row clearfix second">
-                <div class="half">
+                <div class="half wow fadeInLeft">
                     <p><b>Better yet,</b> with VidCode you can peel back the layers so you can see (and learn!) the <b>code that actually makes it happen.</b></p>
                 </div>
-                <div class="half">
+                <div class="half wow fadeInRight">
                     <div class="circle bg2"></div>
                 </div>
             </div>
 
             <div class="row clearfix third">
-                <div class="half">
+                <div class="half wow fadeInLeft">
                     <div class="circle bg3"></div>
                 </div>
-                <div class="half">
+                <div class="half wow fadeInRight">
                     <p>Once you’ve created your masterpiece, you can <b>share it with friends</b> on your social network or with the <b>wildly creative VidCode community.</b></p>
                 </div>
             </div>
@@ -89,10 +88,17 @@
             <a href="mailto:info@vidcode.io" class="email"><img src="img/email.png">info@vidcode.io</a>
             <a href="http://twitter.com/vidcode" class="twitter"><img src="img/twitter.png">@vidcode</a>
         </footer>
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <script src="js/vendor/mailchimp.js"></script>
+        <script src="js/wow.js"></script>
+        <script src="js/main.js"></script>
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+        <script>
+            new WOW().init();
+        </script>
         <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
+
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
