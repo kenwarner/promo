@@ -104,8 +104,9 @@ header{width: 960px; margin: 0 auto;}
 header img{margin: 25px 0;}
 
 header .logo{width: 170px; margin: 0 auto;}
+header .headerline{text-align: center; color: #441B4B;}
 
-.green{background-color: #1B4F33; width: 100%; height: auto; padding: 25px 0;}
+.green{background-color: #1B4F33; width: 100%; henbbight: auto; padding: 25px 0;}
 
 .container{width: 960px; margin: 0 auto;}
 .container p, .container h1, .container h2{text-align: center;}
